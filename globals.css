@@ -1,0 +1,50 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/661e79bbdf63ebb14c06d396.661e79bcdf63ebb14c06d399.j513s1C.vcp.png");
+
+@font-face {
+  font-family: "Hyundai Sans Head Office-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c507f26e900f8000a909e08/HyundaiSansHeadOffice-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Hyundai Sans Head Office-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c507f26e900f8000a909e08/HyundaiSansHeadOffice-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Hyundai Sans Head Office-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c507f26e900f8000a909e08/HyundaiSansHeadOffice-Medium.ttf")
+    format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
